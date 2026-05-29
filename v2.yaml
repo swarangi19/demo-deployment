@@ -1,19 +1,12 @@
 apiVersion: v1
-
 kind: Pod
-
 metadata:
-
   name: nginx
-
+  labels:
+    app: web-server  # Added this label
 spec:
-
   containers:
-
   - name: testcontainer
-
     image: docker.io/httpd
-
     ports:
-
     - containerPort: 80
