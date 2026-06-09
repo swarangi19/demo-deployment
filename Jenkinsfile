@@ -8,7 +8,7 @@ pipeline {
             }
             post {
                 success {
-                    echo "Build successful"
+                    echo "Build Successful"
                 }
             }
         }
@@ -31,7 +31,7 @@ pipeline {
             }
             post {
                 success {
-                    echo "Run successful"
+                    echo "Run Successful"
                 }
             }
         }
